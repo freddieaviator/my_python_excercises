@@ -1,9 +1,9 @@
 import time
 
-first_name = "Fredrik"
-last_name = "Hårberg"
-course = "Date Engineer"
-candidates = 11
+first_name = input("What is your first name?: ")
+last_name = input("What is your last name?: ")
+course = input("What is the name of your course?: ")
+candidates = int(input("How many candidates are in the course?: "))
 
 print("My name is", end= " ")
 print(first_name, end= " ") 
