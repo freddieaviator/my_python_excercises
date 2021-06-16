@@ -26,6 +26,7 @@ def throw_possition(velocity,angle,time,init_height = 1.8)->float:
     else:
         return horizontal_velocity * ball_airtime
 
+
 def airtime(velocity_y,init_height,g = 9.81):
     return (velocity_y + math.sqrt(velocity_y**2 + 2*g*init_height))/g
 
@@ -40,6 +41,6 @@ def throw_distance(velocity,angle,init_height = 1.8)->float:
     ball_airtime = airtime(vertical_velocity,init_height)
     return horizontal_velocity * ball_airtime
 
-print(throw_distance(45,45))
-print(throw_possition(45,45,1))
+print(throw_distance(30,30))
+print(throw_possition(30,30,1))
 
