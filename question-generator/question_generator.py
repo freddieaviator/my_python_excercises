@@ -15,8 +15,8 @@ try:
     ============================================================
     """)
 
-except:
-    print("Something went wrong")
+except Exception as e:
+    print(f"Something went wrong, error code: {e}")
 
 finally:
     my_file.close()
