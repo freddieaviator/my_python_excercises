@@ -11,3 +11,4 @@ if(len(yahtzee.keys())==1):
     print("YAHTZEE!!!!")
 else:
     print("No Yahtzee this time :(")
+    print(len(yahtzee.keys()))

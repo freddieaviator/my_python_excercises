@@ -1,4 +1,4 @@
-current_number = 50
+current_number = 100
 total_numb = 100
 bar_length = 10
 

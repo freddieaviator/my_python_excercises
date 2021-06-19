@@ -5,7 +5,7 @@ second_number = input("Input second number: ")
 operator = input("Input type of operator (+,-,*,/): ")
 special_character = "+-*/"
 
-if(first_number.isnumeric() and second_number.isnumeric() and 
+if(not first_number.isalpha() and not second_number.isalpha() and 
 operator in special_character and len(operator) == 1):
     if(second_number == "0" and operator == "/"):
         print("You cannot divide by zero!")
