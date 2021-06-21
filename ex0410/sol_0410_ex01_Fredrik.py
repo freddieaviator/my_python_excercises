@@ -26,8 +26,6 @@ while True:
         elif user_input.capitalize() == "Count":        
             print(len(dictionary))
             
-            
-
         elif user_input.capitalize() == "Revert":        
             print(f"Dictionary: {dictionary}")
             rev_dictionary = dict()

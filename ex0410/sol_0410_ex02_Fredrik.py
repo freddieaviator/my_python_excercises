@@ -2,8 +2,6 @@ first_number = input("Input first number: ")
 second_number = input("Input second number: ")
 operator = input("Input type of operator (+,-,*,/): ")
 
-
-
 def my_calculator(first_number,second_number,operator):
     try:
         if(operator == "+"):
@@ -18,6 +16,6 @@ def my_calculator(first_number,second_number,operator):
             print(f"{operator} is not a valid operator!")
 
     except Exception as e:
-        print(f"Error code: {e}")
+        return (f"Error code: {e}")
 
 print(my_calculator(first_number,second_number,operator))
